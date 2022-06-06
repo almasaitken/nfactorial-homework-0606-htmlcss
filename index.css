@@ -1,0 +1,164 @@
+body {
+    margin: 20px 40px;
+  }
+  
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 16px;
+  }
+  
+  /*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+  .wrapper {
+    display: flex;
+    height: 60px;
+    background-color: green;
+    margin-bottom: 20px;
+  }
+  
+  /*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+  .redExample {
+    flex: 1;
+    background-color: red;
+  }
+  
+  /*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+  .blueExample {
+    flex: 1;
+    background-color: blue;
+  }
+  
+  /*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+  .emptyExample2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+  }
+  
+  .blueExample2 {
+    width: 80px;
+    background-color: blue;
+  }
+  
+  /* TODO: Add CSS for the rest of your solution below */
+
+  .emptyExample3{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+  }
+
+  .redExample3 {
+    width: 80px;
+    background-color: red;
+  }
+
+  .blueExample3 {
+    width: 80px;
+    background-color: blue;
+  }
+
+  .emptyExample4{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+  }
+
+  .redExample4 {
+    display: flex;
+    flex: 1;
+    background-color: red;
+  }
+
+  .blueExample4 {
+    display: flex;
+    width: 80px;
+    background-color: blue;
+  }
+
+  .emptyExample5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+  .redExample5{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+  }
+
+  .emptyExample6{
+    display: flex;
+    flex: 1;
+  }
+
+  .red1Example6{
+    background-color: red;
+    display: flex;
+    flex: 1;
+  }
+
+  .blueExample6{
+    background-color: blue;
+    display: flex;
+    width: 80px;
+  }
+
+  .emptyExample7{
+    display: flex;
+    flex: 1;
+  }
+
+  .redExample7{
+    background-color: red;
+    width: 80px;
+  }
+
+  .forBlues{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .blueEx7 {
+    background-color: blue;
+    display: flex;
+    flex: 1;
+  }
+
+  .empty7 {
+    display: flex;
+    background-color: transparent;
+    flex: 1;
+  }
+
+  .emptyExample8{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  }
+
+  .orangeEx8 {
+    background-color: orange;
+    width: 68px;
+  }
+
+  .emptyExample9{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  }
+
+  .empty9 {
+    background-color: transparent;
+    width: 20px;
+  }
+
+  .orangeEx9 {
+    background-color: orange;
+    flex-grow: 1;
+  }
